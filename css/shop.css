@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+  background-color:#f3f3f3;
+  font-family: Georgia;
+}
+
+h1{
+  text-align:center;
+  color:#fff;
+  font-size:5em;
+  text-decoration:underline;
+}
+
+p{
+  font-size:2em;
+  font-weight:bold;
+}
+
+/* barra in cima*/
+.container{
+  background-color:#64a1f4;
+	width:85%;
+  border-right:5px #3b7dd8 solid;
+  border-left:5px #3b7dd8 solid;
+}
+
+.top{
+  font-family:Georgia;
+  background-color:#4a91f2;
+  position:fixed;
+	float:left;
+	height:70px;
+  width:85%;
+  z-index: 3;
+}
+
+#navbar{
+  border-color:#64a1f4;
+	color:#fff;
+}
+
+#navbar ul{
+	margin:20px 0px;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a:hover{
+	font-size:21px;
+  color:#E6E6FA;
+	transition:0.2s;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding:2vw 7vw;
+}
+
+/*main site*/
+.container2{
+  padding-top:150px;
+  border-right:5px #3b7dd8 solid;
+  border-left:5px #3b7dd8 solid;
+  background-color:#64a1f4;
+  width:85%;
+  margin:auto;
+}
+
+.centerc2{
+  max-width:1200px;
+  margin:auto;
+  width:90%;
+}
+
+.container4{
+	z-index: -2;
+  padding-top:4000px;
+  border-right:5px #3b7dd8 solid;
+  border-left:5px #3b7dd8 solid;
+  background-color:#64a1f4;
+  width:85%;
+  margin:auto;
+}
+
+/*gestione immagini*/
+.picture-left{
+  margin-top:100px;
+  float:left;
+  width:90%;
+}
+
+.picture-right{
+  margin-top:100px;
+  float:right;
+  width:90%;
+}
+
+#main-left{
+	float:left;
+	width:50%;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+
+#sidebar-left{
+  border-right:5px #03396c solid;
+	float:right;
+	width:50%;
+	color:#03396c;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+
+#main-right{
+	float:right;
+	width:50%;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+
+#sidebar-right{
+  border-left:5px #03396c solid;
+	float:left;
+	width:50%;
+	color:#03396c;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+
+#copyright{
+	background-color:#3b7dd8;
+  font-family:Arial;
+  color:#f7f7f7;
+  font-size:11px;
+}
+
+/* web responsive*/
+@media(max-width:1000px){
+  h1{
+    font-size: 40px;
+  }
+  #sidebar-left{
+    width:100%;
+    float:none;
+  }
+  #main-left{
+    width:100%;
+    float:none;
+  }
+  #sidebar-right{
+    width:100%;
+    float:none;
+  }
+  #main-right{
+    width:100%;
+    float:none;
+  }
+
+}
+
+@media(max-width:600px){
+  .container4{
+    padding-top:2500px;
+  }
+  #sidebar-left{
+    width:100%;
+    float:none;
+    font-size:12px;
+  }
+  #main-left{
+    width:100%;
+    float:none;
+  }
+  #sidebar-right{
+    width:100%;
+    float:none;
+    font-size:12px;
+  }
+  #main-right{
+    width:100%;
+    float:none;
+  }
+
+}
